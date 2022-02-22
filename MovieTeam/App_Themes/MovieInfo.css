@@ -1,0 +1,382 @@
+﻿.bodybg {
+    background-color: #127bab;
+    width: 1920px;
+    height: 228px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.shadow {
+    background: url(../Image/MovieInfo/group_shadow.png) no-repeat 0 0;
+    width: 1100px;
+    height: 1000px;
+    margin: 40px auto 0;
+    position: relative;
+    z-index: 2;
+    padding: 17px 11px 0;
+}
+
+.topcont {
+    background: #fff;
+    width: 1000px;
+}
+
+#head {
+    background-position: center 0;
+    position: relative;
+    zoom: 1;
+    z-index: 9;
+    height: 130px;
+    width: 1000px;
+}
+
+.coverout {
+    position: relative;
+    zoom: 1;
+    height: 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.coverinner {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.coverpicbox {
+    background: #f9f9fa;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #999;
+    padding: 10px;
+    width: 294px;
+}
+
+.cover {
+    background: #000;
+    text-align: center;
+    position: relative;
+    zoom: 1;
+    overflow: hidden;
+    width: 272px;
+    min-height: 275px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.ihead {
+    height: 600px;
+    width: 660px;
+    padding-left: 340px;
+    zoom: 1;
+}
+
+.head {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    zoom: 1;
+    z-index: 5;
+}
+
+.clearfix, .fix {
+    display: block;
+}
+
+.head h1 {
+    font-size: 35px;
+    line-height: 1.2em;
+    color: #333
+}
+
+.head h1, .cutline, .year, .head h3 {
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    *display: inline;
+}
+
+.head h1, .head h3 {
+    display: inline;
+}
+
+.year {
+    font-weight: normal;
+    font-size: 24px;
+    color: #333;
+    line-height: 1em
+}
+
+.head .otherbox {
+    background: #444;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 0 10px;
+    border-radius: 3px;
+    position: relative;
+    zoom: 1;
+}
+
+    .head .otherbox a {
+        color: #fff;
+    }
+
+.base {
+    position: absolute;
+    display: inline;
+    width: 670px;
+}
+
+.pt15 {
+    padding-top: 15px;
+}
+
+.info_l, .info_r {
+    float: left;
+    display: inline;
+    width: 407px;
+    margin-left: 6px;
+}
+
+.info_r {
+    width: 235px;
+    margin-left: 20px;
+}
+
+.info_l dd {
+    border-bottom: 1px dotted #999;
+    position: relative;
+    zoom: 1;
+    padding: 9px 0 9px 95px;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+
+    .info_l dd strong {
+        position: absolute;
+        left: 0;
+        top: 7px;
+        width: 95px;
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+.mt6 {
+    margin-top: 6px;
+}
+
+.lh18 {
+    line-height: 180%;
+}
+
+.LabelStar {
+    margin-left: 50px;
+}
+
+.AddShopping {
+    border: 1px solid #df3033;
+    width: 143px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #df3033;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.OneStepRent {
+    border: 1px solid #679c21;
+    width: 143px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #679c21;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.i_comment {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    background: #127bab;
+}
+
+.gradetool {
+    position: relative;
+    width: 960px;
+    zoom: 1;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+}
+
+    .gradetool em.radius {
+        background: #000;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        opacity: .4;
+        filter: alpha(opacity=40);
+        border-radius: 12px 12px 0 0;
+    }
+
+.editmpscore {
+    margin-top:30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.per_userbox {
+    position: relative;
+    z-index: 3;
+    padding: 30px 45px 20px;
+}
+
+.new_userbox {
+    background: url(../Image/MovieInfo/per_line.png) no-repeat 430px 50%;
+}
+
+.per_usergrade {
+    min-height: 105px;
+}
+
+.per_usergrade {
+    width: 275px;
+    float: left;
+    display: inline;
+    position: relative;
+    zoom: 1;
+    padding-left: 40px;
+}
+
+.gradetool .mpscore {
+    margin-top: 10px;
+}
+
+.mdlr .mdr {
+    display: table-cell;
+    width: 100%;
+}
+
+.looktool {
+    color: #fff;
+    padding: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.gradetool .per_message {
+    position: absolute;
+    left: 415px;
+    top: 10px;
+    width: 485px;
+    margin: 0;
+}
+
+.TBmessage {
+    resize: none;
+}
+
+.fr {
+    float: right;
+    margin-top: 10px;
+}
+
+.Btn_message {
+    border: 1px solid #0081bc;
+    width: 100px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #0081bc;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.new_comcont {
+    position: relative;
+    zoom: 1;
+    overflow: hidden;
+    margin-top: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .new_comcont .comment {
+        background: #fff;
+        margin-top: 0;
+        border-bottom: 1px solid #aaa;
+    }
+    .new_comcont .comment dl {
+        position: relative;
+        zoom: 1;
+        overflow: hidden;
+        margin: 15px 30px;
+    }
+    .new_comcont .comment dd {
+        position: relative;
+        zoom: 1;
+        overflow: hidden;
+        display: block;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        border-top: 0;
+        float: none;
+        width: auto;
+    }
+    .new_comcont .mod_comment {
+        padding: 15px 0;
+        padding-left: 180px;
+        position: relative;
+        zoom: 1;
+        margin: 0;
+    }
+    .new_comcont h3 {
+        font-size: 16px;
+        line-height: 1.8em;
+        font-weight: normal;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    .new_comcont .comboxuser {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 150px;
+        padding-right: 10px;
+        border-right: 1px solid #ccc;
+    }
+.comboxuser {
+    margin-top: 15px;
+    color: #999;
+}
+.pic_58 {
+    padding-left: 60px;
+}

@@ -1,0 +1,124 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.pointer {
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+}
+
+    .pointer li {
+        width: 42px;
+        height: 1px;
+        background: #5a5a5a;
+        float: left;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+        .pointer li.now {
+            height: 4px;
+            background: #c8c8c8;
+        }
+
+.cut {
+    background: #bdbdbd;
+    position: absolute;
+    font-family: '宋体';
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.J_banner {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+    .J_banner .img {
+        width: 2000px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+        .J_banner .img li {
+            float: left;
+            position: relative;
+        }
+
+    .J_banner .cut {
+        width: 34px;
+        height: 58px;
+        left: 20px;
+        font-size: 18px;
+        line-height: 58px;
+    }
+
+        .J_banner .cut.next {
+            left: auto;
+            right: 20px;
+        }
+
+.Hot {
+    height: 490px;
+    width: 1500px;
+    margin: auto;
+    top: 50px;
+    left: 0px;
+}
+
+.Action, .Comedy, .Romance, .Science, .Thriller, .Horror, .Feature, .Cartoon {
+    position: relative;
+    margin: auto;
+    top: 230px;
+    left: 0px;
+    height: 530px;
+    width: 1500px;
+    display: block;
+}
+
+.M_block {
+    float: left;
+    margin: 0px 100px;
+    height: 425px;
+    width: 270px;
+}
+
+.More {
+    margin-top: 280px;
+    margin-left: 1230px;
+}
+
+.Hover:hover {
+    color: white;
+}
+
+.Movie {
+    transition-duration: 0.6s; /*放大需要的时间*/
+}
+
+    .Movie:hover {
+        transform: scale(1.4); /*放大倍数*/
+    }

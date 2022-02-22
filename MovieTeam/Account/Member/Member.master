@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Member.master.cs" Inherits="MovieTeam.Account.Member.Member" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
+
+    <link href="../../App_Themes/Member.css" type="text/css" rel="stylesheet" />
+
+
+    <div style="height:1000px">
+        <div style="margin-bottom: 20px; border-bottom: 2px solid #ebebeb; margin-left: 5%">
+        <h2>个人中心</h2>
+    </div>
+
+    <div class="treebox" style="float:left">
+        <ul class="menu">
+            <li class="level1" id="MovieManagement" runat="server">
+                <a href="#none"><em class="ico ico5"></em>电影管理<i class="down"></i></a>
+                <ul class="level2">
+                    <li><a href="../Member/MovieManagement_On.aspx">已启用电影</a></li>
+                    <li><a href="../Member/MovieManagement_Off.aspx">已禁用电影</a></li>
+                    <li><a href="../Member/MovieAdd.aspx">添加电影</a></li>
+                    <li><a href="../Member/DirectorAndActorManagement.aspx">导演与演员</a></li>
+                    <li><a href="../Member/MovieList.aspx">借阅统计</a></li>
+                </ul>
+            </li>
+            <li class="level1" id="InformationManagement">
+                <a href="#none"><em class="ico ico4"></em>个人信息管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="../Member/UserInformation.aspx">修改个人信息</a></li>
+                    <li><a href="../Member/HasBring.aspx">订单查询</a></li>
+                    
+                </ul>
+            </li>
+            
+            <li class="level1" id="CharactorManagement" runat="server">
+                <a href="#none"><em class="ico ico4" style="right: 158px"></em>用户管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="../Member/UserManagement.aspx">用户管理</a></li>
+                    <li><a href="../Member/CharacterManagement.aspx">角色管理</a></li>
+                    <li><a href="../Member/FunctionManagement.aspx">功能管理</a></li>
+                    <li><a href="../Member/LimitManagement.aspx">权限管理</a></li>
+                </ul>
+            </li>
+            <li class="level1" id ="CommentManagement" runat="server">
+                <a href="#none"><em class="ico ico5"></em>评论/租赁管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="../Member/ExamineCommentManagement.aspx">审查评论</a></li>
+                    <li><a href="../Member/PassedCommentManagement.aspx">管理已通过评论</a></li>
+                    <li><a href="../Member/BringAndReturnManagement.aspx">租赁管理</a></li>                  
+                </ul>
+            </li>
+        </ul>
+    </div>
+     <div class="MainContent" style="float:left;width:70%">
+        <asp:ContentPlaceHolder ID="MemberContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    </div>
+    </div>
+    
+    
+
+
+
+
+
+
+    <script src="../../Scripts/jquery-1.10.2.js"></script>
+    <script src="../../Scripts/Memer/easing.js"></script>
+    <script>
+        //等待dom元素加载完毕.
+        $(function () {
+            $(".treebox .level1>a").click(function () {
+                $(this).addClass('current')   //给当前元素添加"current"样式
+                    .find('i').addClass('down')   //小箭头向下样式
+                    .parent().next().slideDown('slow', 'easeOutQuad')  //下一个元素显示
+                    .parent().siblings().children('a').removeClass('current')//父元素的兄弟元素的子元素去除"current"样式
+                    .find('i').removeClass('down').parent().next().slideUp('slow', 'easeOutQuad');//隐藏
+                return false; //阻止默认时间
+            });
+        })
+    </script>
+</asp:Content>

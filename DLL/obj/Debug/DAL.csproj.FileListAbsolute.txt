@@ -1,0 +1,11 @@
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\bin\Debug\DLL.dll
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\bin\Debug\DLL.pdb
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\bin\Debug\DBUtility.dll
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\bin\Debug\Model.dll
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\bin\Debug\Model.pdb
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\bin\Debug\DBUtility.xml
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\obj\Debug\DLL.dll
+C:\Users\user\Source\Repos\Movie.Net\Movie\DLL\obj\Debug\DLL.pdb

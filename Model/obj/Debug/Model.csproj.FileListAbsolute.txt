@@ -1,0 +1,6 @@
+C:\Users\user\Source\Repos\Movie.Net\Movie\Model\bin\Debug\Model.dll
+C:\Users\user\Source\Repos\Movie.Net\Movie\Model\bin\Debug\Model.pdb
+C:\Users\user\Source\Repos\Movie.Net\Movie\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\Movie.Net\Movie\Model\obj\Debug\Model.dll
+C:\Users\user\Source\Repos\Movie.Net\Movie\Model\obj\Debug\Model.pdb
+C:\Users\user\Source\Repos\Movie.Net\Movie\Model\obj\Debug\Model.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site_Full.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="MovieTeam.Account.Member.AboutUs" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <link rel="stylesheet" href="/App_Themes/StyleSheet2.css" type="text/css"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  <meta name="HandheldFriendly" content="true"> <meta name="description" content="本站不提供任何视听上传服务，所有内容均来自正规视频站点所提供的公开引用资源"> <meta name="keyword" content=""> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <link rel=""> <meta http-equiv="Y-UA-Compatible" content="IE=edge,chrome=1"> <meta name="renderer" content="webkit">
+    <div class="splash-container"> <div class="splash"> <h1 class="splash-head">关于我们/联系我们</h1> <span class="tstj"><b> <font size="4pt" color="white">CUIT电影天堂，创建于2018年5月1日</font></b> </span> <p class="splash-subhead">CUIT电影天堂<br>站内设各式电影等多个栏目<br>合作与广告投放请联系邮箱:cuit@mail.com</p> <br> <p><a href="" onclick="goToServerList(); return false;" class="pure-button pure-button-primary">www.cuit.com</a></p> </div> </div>
+</asp:Content>

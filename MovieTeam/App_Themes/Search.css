@@ -1,0 +1,51 @@
+﻿body {
+}
+.search {
+    margin: 50px auto;
+    border: 2px solid #808080;
+    width: 40%;
+    max-width:400px;
+}
+
+.SearchInput {
+    padding: 5px 0;
+    border: none;
+    width: 90%;
+    vertical-align: middle;
+    color: #898989;
+    height:32px;
+    max-width:400px;
+}
+
+.SearchBtn {
+    width: 32px;
+    position: absolute;
+}
+
+.result {
+    margin: 0px 30% 60px;
+}
+
+.pic {
+    float: left;
+}
+
+img {
+    width: 96px;
+    height: 128px;
+}
+
+.info {
+    padding: 0px 0px 0px 100px;
+}
+
+.filmscore {
+    position: relative;
+    left: -40px;
+    top: 60px;
+    width: 40px;
+}
+
+.nav-pager {
+    margin: 0px 30% auto;
+}
